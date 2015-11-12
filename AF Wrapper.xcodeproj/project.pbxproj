@@ -10,11 +10,6 @@
 		4E1CAE741B53D02500524002 /* iOSRepositoriesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1CAE731B53D02500524002 /* iOSRepositoriesAPI.m */; };
 		4E1CAE771B53E05300524002 /* NSString+AWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC03E1B525AAE00EC98DC /* NSString+AWUtils.m */; };
 		4E1CAE791B53E08800524002 /* NSStringAWUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1CAE781B53E08800524002 /* NSStringAWUtilsTests.m */; };
-		4E36A98C1B5E1BFE006204A3 /* NSData+LLDBQuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36A9801B5E1BFE006204A3 /* NSData+LLDBQuickLook.m */; };
-		4E36A98D1B5E1BFE006204A3 /* NSObject+LLDBQuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36A9821B5E1BFE006204A3 /* NSObject+LLDBQuickLook.m */; };
-		4E36A98E1B5E1BFE006204A3 /* NSString+LLDBQuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36A9841B5E1BFE006204A3 /* NSString+LLDBQuickLook.m */; };
-		4E36A98F1B5E1BFE006204A3 /* UIImage+LLDBQuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36A9871B5E1BFE006204A3 /* UIImage+LLDBQuickLook.m */; };
-		4E36A9901B5E1BFE006204A3 /* UIView+LLDBQuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36A9891B5E1BFE006204A3 /* UIView+LLDBQuickLook.m */; };
 		4E8E224A1B54EA32003A99C7 /* NSObject+SingletoneObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E22491B54EA32003A99C7 /* NSObject+SingletoneObject.m */; };
 		4E8E22541B54FD92003A99C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E22531B54FD92003A99C7 /* ViewController.m */; };
 		4E8E22611B54FDA3003A99C7 /* Gist.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E225A1B54FDA3003A99C7 /* Gist.m */; };
@@ -23,7 +18,6 @@
 		4E8E22661B54FDC2003A99C7 /* GistFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E22651B54FDC2003A99C7 /* GistFile.m */; };
 		4EFAC0651B525AAE00EC98DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC0041B525AAE00EC98DC /* AppDelegate.m */; };
 		4EFAC0671B525AAE00EC98DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC0061B525AAE00EC98DC /* main.m */; };
-		4EFAC0681B525AAE00EC98DC /* Warnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAC0081B525AAE00EC98DC /* Warnings.xcconfig */; };
 		4EFAC06A1B525AAE00EC98DC /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC0111B525AAE00EC98DC /* BaseModel.m */; };
 		4EFAC06B1B525AAE00EC98DC /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC0141B525AAE00EC98DC /* BaseNavigationController.m */; };
 		4EFAC06C1B525AAE00EC98DC /* BaseViewController+BaseUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC0161B525AAE00EC98DC /* BaseViewController+BaseUI.m */; };
@@ -55,6 +49,7 @@
 		4EFAC08A1B525AAE00EC98DC /* GET_https___api.github.com_search_repositories?page=1&per_page=10&q=ios.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAC05E1B525AAE00EC98DC /* GET_https___api.github.com_search_repositories?page=1&per_page=10&q=ios.json */; };
 		4EFAC0901B525B3500EC98DC /* AddGistAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC08F1B525B3500EC98DC /* AddGistAPI.m */; };
 		4EFAC09C1B52612600EC98DC /* PaginationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC0961B525E8900EC98DC /* PaginationAPI.m */; };
+		95DB3E721BF488E300F63DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DB3E711BF488E300F63DAE /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		A7ED73C6550EF70768F0635B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FD8FF6629EDA52E6CCCC8B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -72,16 +67,6 @@
 		4E1CAE721B53D02500524002 /* iOSRepositoriesAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSRepositoriesAPI.h; sourceTree = "<group>"; };
 		4E1CAE731B53D02500524002 /* iOSRepositoriesAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSRepositoriesAPI.m; sourceTree = "<group>"; };
 		4E1CAE781B53E08800524002 /* NSStringAWUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAWUtilsTests.m; sourceTree = "<group>"; };
-		4E36A97F1B5E1BFE006204A3 /* NSData+LLDBQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LLDBQuickLook.h"; sourceTree = "<group>"; };
-		4E36A9801B5E1BFE006204A3 /* NSData+LLDBQuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LLDBQuickLook.m"; sourceTree = "<group>"; };
-		4E36A9811B5E1BFE006204A3 /* NSObject+LLDBQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LLDBQuickLook.h"; sourceTree = "<group>"; };
-		4E36A9821B5E1BFE006204A3 /* NSObject+LLDBQuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LLDBQuickLook.m"; sourceTree = "<group>"; };
-		4E36A9831B5E1BFE006204A3 /* NSString+LLDBQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LLDBQuickLook.h"; sourceTree = "<group>"; };
-		4E36A9841B5E1BFE006204A3 /* NSString+LLDBQuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LLDBQuickLook.m"; sourceTree = "<group>"; };
-		4E36A9861B5E1BFE006204A3 /* UIImage+LLDBQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LLDBQuickLook.h"; sourceTree = "<group>"; };
-		4E36A9871B5E1BFE006204A3 /* UIImage+LLDBQuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LLDBQuickLook.m"; sourceTree = "<group>"; };
-		4E36A9881B5E1BFE006204A3 /* UIView+LLDBQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLDBQuickLook.h"; sourceTree = "<group>"; };
-		4E36A9891B5E1BFE006204A3 /* UIView+LLDBQuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLDBQuickLook.m"; sourceTree = "<group>"; };
 		4E8E22481B54EA32003A99C7 /* NSObject+SingletoneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SingletoneObject.h"; sourceTree = "<group>"; };
 		4E8E22491B54EA32003A99C7 /* NSObject+SingletoneObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SingletoneObject.m"; sourceTree = "<group>"; };
 		4E8E224C1B54EE17003A99C7 /* UIAlertView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
@@ -96,7 +81,6 @@
 		4E8E22601B54FDA3003A99C7 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		4E8E22641B54FDC2003A99C7 /* GistFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GistFile.h; sourceTree = "<group>"; };
 		4E8E22651B54FDC2003A99C7 /* GistFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GistFile.m; sourceTree = "<group>"; };
-		4E8E22671B5507EB003A99C7 /* AWSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AWSettings.h; path = "/Users/alko/Crypted/AF Wrapper/AF Wrapper/Library/Helpers/API/AWSettings.h"; sourceTree = "<absolute>"; };
 		4EACF9F31B4D3CF30016C75D /* AF Wrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AF Wrapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EACFA0C1B4D3CF40016C75D /* AF WrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AF WrapperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EACFA111B4D3CF40016C75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -160,6 +144,8 @@
 		4EFAC0951B525E8900EC98DC /* PaginationAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaginationAPI.h; sourceTree = "<group>"; };
 		4EFAC0961B525E8900EC98DC /* PaginationAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaginationAPI.m; sourceTree = "<group>"; };
 		948B0E455C3E0C772E10555B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		95DB3E701BF4884300F63DAE /* AWSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSettings.h; sourceTree = "<group>"; };
+		95DB3E711BF488E300F63DAE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B80B4466AE924A9106280605 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C7FD8FF6629EDA52E6CCCC8B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -194,6 +180,7 @@
 		4E067B1F1B74B22800BA4BD7 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				95DB3E711BF488E300F63DAE /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -205,32 +192,6 @@
 				4E1CAE731B53D02500524002 /* iOSRepositoriesAPI.m */,
 			);
 			path = "iOS repositories";
-			sourceTree = "<group>";
-		};
-		4E36A9791B5E1BFE006204A3 /* DataProviders */ = {
-			isa = PBXGroup;
-			children = (
-				4E36A97F1B5E1BFE006204A3 /* NSData+LLDBQuickLook.h */,
-				4E36A9801B5E1BFE006204A3 /* NSData+LLDBQuickLook.m */,
-				4E36A9811B5E1BFE006204A3 /* NSObject+LLDBQuickLook.h */,
-				4E36A9821B5E1BFE006204A3 /* NSObject+LLDBQuickLook.m */,
-				4E36A9831B5E1BFE006204A3 /* NSString+LLDBQuickLook.h */,
-				4E36A9841B5E1BFE006204A3 /* NSString+LLDBQuickLook.m */,
-				4E36A9851B5E1BFE006204A3 /* UIKit */,
-			);
-			name = DataProviders;
-			path = "../../../../../Downloads/LLDB-QuickLook-master/DataProviders";
-			sourceTree = "<group>";
-		};
-		4E36A9851B5E1BFE006204A3 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				4E36A9861B5E1BFE006204A3 /* UIImage+LLDBQuickLook.h */,
-				4E36A9871B5E1BFE006204A3 /* UIImage+LLDBQuickLook.m */,
-				4E36A9881B5E1BFE006204A3 /* UIView+LLDBQuickLook.h */,
-				4E36A9891B5E1BFE006204A3 /* UIView+LLDBQuickLook.m */,
-			);
-			path = UIKit;
 			sourceTree = "<group>";
 		};
 		4E8E22471B54EA32003A99C7 /* Singletone */ = {
@@ -439,7 +400,6 @@
 		4EFAC01B1B525AAE00EC98DC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				4E36A9791B5E1BFE006204A3 /* DataProviders */,
 				4EFAC01C1B525AAE00EC98DC /* API */,
 				4EFAC0421B525AAE00EC98DC /* Base objects extensions */,
 				4EFAC04C1B525AAE00EC98DC /* Constants */,
@@ -453,11 +413,11 @@
 		4EFAC01C1B525AAE00EC98DC /* API */ = {
 			isa = PBXGroup;
 			children = (
+				95DB3E701BF4884300F63DAE /* AWSettings.h */,
 				4EFAC01D1B525AAE00EC98DC /* Base */,
 				4EFAC02C1B525AAE00EC98DC /* GET */,
 				4EFAC0301B525AAE00EC98DC /* Model */,
 				4EFAC03F1B525AAE00EC98DC /* POST */,
-				4E8E22671B5507EB003A99C7 /* AWSettings.h */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -673,7 +633,7 @@
 		4EACF9EB1B4D3CF30016C75D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Siberian.pro;
 				TargetAttributes = {
 					4EACF9F21B4D3CF30016C75D = {
@@ -711,7 +671,7 @@
 			files = (
 				4EFAC0891B525AAE00EC98DC /* Images.xcassets in Resources */,
 				4EFAC08A1B525AAE00EC98DC /* GET_https___api.github.com_search_repositories?page=1&per_page=10&q=ios.json in Resources */,
-				4EFAC0681B525AAE00EC98DC /* Warnings.xcconfig in Resources */,
+				95DB3E721BF488E300F63DAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,13 +722,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E36A98E1B5E1BFE006204A3 /* NSString+LLDBQuickLook.m in Sources */,
 				4E8E22631B54FDA3003A99C7 /* User.m in Sources */,
 				4EFAC06D1B525AAE00EC98DC /* BaseViewController+Orientation.m in Sources */,
 				4EFAC0831B525AAE00EC98DC /* UIView+Coordinates.m in Sources */,
 				4EFAC0671B525AAE00EC98DC /* main.m in Sources */,
 				4E8E22621B54FDA3003A99C7 /* Repo.m in Sources */,
-				4E36A98F1B5E1BFE006204A3 /* UIImage+LLDBQuickLook.m in Sources */,
 				4EFAC06B1B525AAE00EC98DC /* BaseNavigationController.m in Sources */,
 				4EFAC0741B525AAE00EC98DC /* GetAPI.m in Sources */,
 				4E8E22611B54FDA3003A99C7 /* Gist.m in Sources */,
@@ -781,9 +739,7 @@
 				4E8E22661B54FDC2003A99C7 /* GistFile.m in Sources */,
 				4EFAC0781B525AAE00EC98DC /* AWModel+DictionaryToObject.m in Sources */,
 				4EFAC0811B525AAE00EC98DC /* NSObject+Observers.m in Sources */,
-				4E36A9901B5E1BFE006204A3 /* UIView+LLDBQuickLook.m in Sources */,
 				4E8E224A1B54EA32003A99C7 /* NSObject+SingletoneObject.m in Sources */,
-				4E36A98D1B5E1BFE006204A3 /* NSObject+LLDBQuickLook.m in Sources */,
 				4EFAC07C1B525AAE00EC98DC /* NSObject+ClassName.m in Sources */,
 				4EFAC07A1B525AAE00EC98DC /* AWModel+ObjectToDictionary.m in Sources */,
 				4E8E22541B54FD92003A99C7 /* ViewController.m in Sources */,
@@ -802,7 +758,6 @@
 				4EFAC0751B525AAE00EC98DC /* PostAPI.m in Sources */,
 				4EFAC06C1B525AAE00EC98DC /* BaseViewController+BaseUI.m in Sources */,
 				4EFAC0701B525AAE00EC98DC /* API+ReplyHandling.m in Sources */,
-				4E36A98C1B5E1BFE006204A3 /* NSData+LLDBQuickLook.m in Sources */,
 				4EFAC0841B525AAE00EC98DC /* UIView+Utils.m in Sources */,
 				4EFAC06E1B525AAE00EC98DC /* BaseViewController.m in Sources */,
 			);
@@ -849,6 +804,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -917,6 +873,7 @@
 				INFOPLIST_FILE = "AF Wrapper/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Siberian.pro.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -930,6 +887,7 @@
 				INFOPLIST_FILE = "AF Wrapper/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Siberian.pro.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -948,6 +906,7 @@
 				);
 				INFOPLIST_FILE = "AF WrapperTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Siberian.pro.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AF Wrapper.app/AF Wrapper";
 			};
@@ -963,6 +922,7 @@
 				);
 				INFOPLIST_FILE = "AF WrapperTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Siberian.pro.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AF Wrapper.app/AF Wrapper";
 			};

@@ -18,7 +18,8 @@
 {
     [super viewDidLoad];
 
-    [self sendGist:nil];
+    //[self sendGist:nil];
+    [self loadiOSRepos:nil];
 }
 
 - (IBAction)loadiOSRepos:(id)sender
