@@ -35,15 +35,18 @@
 
 - (void)apiDidReturnReply:(id)reply source:(id)source
 {
-    NSDate *dateBefore = [NSDate date];
+    for (int i=0; i<10; i++) {
+        NSDate *dateBefore = [NSDate date];
+        
+        Repo *repo = [Repo objectFromReply:reply[@"items"]];
+        
+        NSDate *dateAfter = [NSDate date];
+        
+        NSTimeInterval distanceBetweenDates = [dateAfter timeIntervalSinceDate:dateBefore];
+        NSLog(@"%f",distanceBetweenDates);
+    }
     
-    NSArray *parsedReply = [Repo objectFromReply:reply[@"items"]];
-    
-    NSDate *dateAfter = [NSDate date];
-    
-    NSTimeInterval distanceBetweenDates = [dateAfter timeIntervalSinceDate:dateBefore];
-    NSLog(@"%f",distanceBetweenDates);
-    [super apiDidReturnReply:parsedReply source:source];
+    [super apiDidReturnReply:reply source:source];
 }
 
 @end

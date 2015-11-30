@@ -49,7 +49,7 @@
 		4EFAC08A1B525AAE00EC98DC /* GET_https___api.github.com_search_repositories?page=1&per_page=10&q=ios.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAC05E1B525AAE00EC98DC /* GET_https___api.github.com_search_repositories?page=1&per_page=10&q=ios.json */; };
 		4EFAC0901B525B3500EC98DC /* AddGistAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC08F1B525B3500EC98DC /* AddGistAPI.m */; };
 		4EFAC09C1B52612600EC98DC /* PaginationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC0961B525E8900EC98DC /* PaginationAPI.m */; };
-		95DB3E721BF488E300F63DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DB3E711BF488E300F63DAE /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		95DB3E721BF488E300F63DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DB3E711BF488E300F63DAE /* Main.storyboard */; };
 		A7ED73C6550EF70768F0635B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FD8FF6629EDA52E6CCCC8B /* libPods.a */; };
 /* End PBXBuildFile section */
 

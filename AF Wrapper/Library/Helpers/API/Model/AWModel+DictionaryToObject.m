@@ -52,12 +52,12 @@
     
     NSMutableArray *parsedObjects = [NSMutableArray arrayWithCapacity:source.count];
     
-    
+    /*
     for (NSDictionary *object in source) {
         id parsedObject = [object aw_parseTo:self];
         [parsedObjects addObject:parsedObject];
     }
-    
+    */
     /*
     NSEnumerator *e = [source objectEnumerator];
     id object;
@@ -72,12 +72,12 @@
         [parsedObjects addObject:parsedObject];
     }];
     */
-    /*
+    
     [source enumerateObjectsWithOptions:NSEnumerationConcurrent usingBlock:^(id object, NSUInteger idx, BOOL *stop) {
         id parsedObject = [object aw_parseTo:self];
         [parsedObjects addObject:parsedObject];
     }];
-    */
+    
     return parsedObjects;
 }
 
@@ -86,20 +86,22 @@
     AWModel *object = nil;
     if ([source isFull]) {
         object = [self new];
-        /*
+        
         [source enumerateKeysAndObjectsUsingBlock:^(NSString *key, id value, BOOL *stop) {
             // If object contains data
             if ([key isFull] && [value isFull]) {
                 [object parseObject:value forKey:key];
             }
         }];
-        */
+        
+        /*
         for(id key in source) {
             id value = [source objectForKey:key];
             if ([key isFull] && [value isFull]) {
                 [object parseObject:value forKey:key];
             }
         }
+        */
         
     }
 
