@@ -17,7 +17,7 @@
 {
     [super prepare];
 
-    [self setShouldLogRequest:YES];
+    //[self setShouldLogRequest:YES];
 }
 
 - (NSString *)path
@@ -35,8 +35,14 @@
 
 - (void)apiDidReturnReply:(id)reply source:(id)source
 {
+    NSDate *dateBefore = [NSDate date];
+    
     NSArray *parsedReply = [Repo objectFromReply:reply[@"items"]];
-
+    
+    NSDate *dateAfter = [NSDate date];
+    
+    NSTimeInterval distanceBetweenDates = [dateAfter timeIntervalSinceDate:dateBefore];
+    NSLog(@"%f",distanceBetweenDates);
     [super apiDidReturnReply:parsedReply source:source];
 }
 

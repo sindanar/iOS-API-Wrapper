@@ -8,7 +8,7 @@
 #import "Constants.h"
 
 // API
-NSUInteger const kAPIDefaultObjectsPerPage = 10;
+NSUInteger const kAPIDefaultObjectsPerPage = 100;
 
 NSString *const kAPIBaseURL = @"https://api.github.com/",
 *const kAPIiOSRepositoriesURL = @"search/repositories",

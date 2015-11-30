@@ -25,7 +25,7 @@
 - (IBAction)loadiOSRepos:(id)sender
 {
     [iOSRepositoriesAPI withCompletion:^(NSArray *repos, NSError *error, BOOL *handleError) {
-        NSLog(@"#iOS Repos:\n%@", repos);
+        NSLog(@"#iOS Repos:\n%lu", (unsigned long)repos.count);
     }];
 }
 
