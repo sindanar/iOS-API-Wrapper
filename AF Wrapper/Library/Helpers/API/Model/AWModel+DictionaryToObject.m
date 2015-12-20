@@ -5,7 +5,6 @@
 //  Created by Alexander Kozin on 16.04.14.
 //  Copyright (c) 2014 Dishero Inc. All rights reserved.
 //
-
 #import "AWModel.h"
 
 #import "NSObject+BaseObjectParsing.h"
@@ -108,9 +107,15 @@
     if (modelClass) {
         objectToSet = [modelClass objectFromReply:source];
     }
-
-    // And set value (parsed or not) to property
-    [self safelySetValue:objectToSet forKey:propertyName];
+    
+    id value = [self valueForKey:propertyName];
+    if  ([value isKindOfClass:[NSValue class]]){
+        NSValue *v = [class getValueForLocation:source];
+        [self safelySetValue:v forKey:propertyName];
+        
+    } else {
+        [self safelySetValue:objectToSet forKey:propertyName];
+    }
 }
 
 - (BOOL)safelySetValue:(id)value forKey:(NSString *)key

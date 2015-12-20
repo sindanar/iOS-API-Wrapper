@@ -49,7 +49,11 @@
 		4EFAC08A1B525AAE00EC98DC /* GET_https___api.github.com_search_repositories?page=1&per_page=10&q=ios.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAC05E1B525AAE00EC98DC /* GET_https___api.github.com_search_repositories?page=1&per_page=10&q=ios.json */; };
 		4EFAC0901B525B3500EC98DC /* AddGistAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC08F1B525B3500EC98DC /* AddGistAPI.m */; };
 		4EFAC09C1B52612600EC98DC /* PaginationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAC0961B525E8900EC98DC /* PaginationAPI.m */; };
-		95DB3E721BF488E300F63DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DB3E711BF488E300F63DAE /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		9512A2061C26ADD10066B224 /* AWModel+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512A2051C26ADD10066B224 /* AWModel+Location.m */; };
+		95DB3E721BF488E300F63DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DB3E711BF488E300F63DAE /* Main.storyboard */; };
+		95EB1D601C0D6C1700D2792E /* LocationGetAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EB1D5F1C0D6C1700D2792E /* LocationGetAPI.m */; };
+		95EB1D621C0D6CF900D2792E /* Location.json in Resources */ = {isa = PBXBuildFile; fileRef = 95EB1D611C0D6CF900D2792E /* Location.json */; };
+		95EB1D691C0D73A600D2792E /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EB1D681C0D73A600D2792E /* LocationModel.m */; };
 		A7ED73C6550EF70768F0635B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FD8FF6629EDA52E6CCCC8B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -144,8 +148,14 @@
 		4EFAC0951B525E8900EC98DC /* PaginationAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaginationAPI.h; sourceTree = "<group>"; };
 		4EFAC0961B525E8900EC98DC /* PaginationAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaginationAPI.m; sourceTree = "<group>"; };
 		948B0E455C3E0C772E10555B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9512A2051C26ADD10066B224 /* AWModel+Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWModel+Location.m"; sourceTree = "<group>"; };
 		95DB3E701BF4884300F63DAE /* AWSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSettings.h; sourceTree = "<group>"; };
 		95DB3E711BF488E300F63DAE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		95EB1D5E1C0D6C1700D2792E /* LocationGetAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationGetAPI.h; sourceTree = "<group>"; };
+		95EB1D5F1C0D6C1700D2792E /* LocationGetAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationGetAPI.m; sourceTree = "<group>"; };
+		95EB1D611C0D6CF900D2792E /* Location.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Location.json; sourceTree = "<group>"; };
+		95EB1D671C0D73A600D2792E /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		95EB1D681C0D73A600D2792E /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
 		B80B4466AE924A9106280605 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C7FD8FF6629EDA52E6CCCC8B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -239,6 +249,7 @@
 		4E8E22561B54FDA3003A99C7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				95EB1D661C0D739000D2792E /* LocationModel */,
 				4E8E22571B54FDA3003A99C7 /* Gist */,
 				4E8E225B1B54FDA3003A99C7 /* Repo */,
 				4E8E225E1B54FDA3003A99C7 /* User */,
@@ -448,6 +459,7 @@
 		4EFAC02C1B525AAE00EC98DC /* GET */ = {
 			isa = PBXGroup;
 			children = (
+				95EB1D5D1C0D6C0100D2792E /* Location */,
 				4E1CAE711B53D02500524002 /* iOS repositories */,
 			);
 			path = GET;
@@ -462,6 +474,7 @@
 				4EFAC0311B525AAE00EC98DC /* AWModel+DictionaryToObject.m */,
 				4EFAC0321B525AAE00EC98DC /* AWModel+Mapping.m */,
 				4EFAC0331B525AAE00EC98DC /* AWModel+ObjectToDictionary.m */,
+				9512A2051C26ADD10066B224 /* AWModel+Location.m */,
 				4EFAC03B1B525AAE00EC98DC /* NSObject+BaseObjectParsing.h */,
 				4EFAC03C1B525AAE00EC98DC /* NSObject+BaseObjectParsing.m */,
 				4EFAC03D1B525AAE00EC98DC /* NSString+AWUtils.h */,
@@ -564,6 +577,7 @@
 		4EFAC05D1B525AAE00EC98DC /* Stabs */ = {
 			isa = PBXGroup;
 			children = (
+				95EB1D611C0D6CF900D2792E /* Location.json */,
 				4EFAC05E1B525AAE00EC98DC /* GET_https___api.github.com_search_repositories?page=1&per_page=10&q=ios.json */,
 			);
 			path = Stabs;
@@ -576,6 +590,24 @@
 				4EFAC08F1B525B3500EC98DC /* AddGistAPI.m */,
 			);
 			path = "Add gist";
+			sourceTree = "<group>";
+		};
+		95EB1D5D1C0D6C0100D2792E /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				95EB1D5E1C0D6C1700D2792E /* LocationGetAPI.h */,
+				95EB1D5F1C0D6C1700D2792E /* LocationGetAPI.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		95EB1D661C0D739000D2792E /* LocationModel */ = {
+			isa = PBXGroup;
+			children = (
+				95EB1D671C0D73A600D2792E /* LocationModel.h */,
+				95EB1D681C0D73A600D2792E /* LocationModel.m */,
+			);
+			path = LocationModel;
 			sourceTree = "<group>";
 		};
 		F21BB6812031AA9F257D991E /* Pods */ = {
@@ -671,6 +703,7 @@
 			files = (
 				4EFAC0891B525AAE00EC98DC /* Images.xcassets in Resources */,
 				4EFAC08A1B525AAE00EC98DC /* GET_https___api.github.com_search_repositories?page=1&per_page=10&q=ios.json in Resources */,
+				95EB1D621C0D6CF900D2792E /* Location.json in Resources */,
 				95DB3E721BF488E300F63DAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -725,6 +758,7 @@
 				4E8E22631B54FDA3003A99C7 /* User.m in Sources */,
 				4EFAC06D1B525AAE00EC98DC /* BaseViewController+Orientation.m in Sources */,
 				4EFAC0831B525AAE00EC98DC /* UIView+Coordinates.m in Sources */,
+				9512A2061C26ADD10066B224 /* AWModel+Location.m in Sources */,
 				4EFAC0671B525AAE00EC98DC /* main.m in Sources */,
 				4E8E22621B54FDA3003A99C7 /* Repo.m in Sources */,
 				4EFAC06B1B525AAE00EC98DC /* BaseNavigationController.m in Sources */,
@@ -757,8 +791,10 @@
 				4E1CAE741B53D02500524002 /* iOSRepositoriesAPI.m in Sources */,
 				4EFAC0751B525AAE00EC98DC /* PostAPI.m in Sources */,
 				4EFAC06C1B525AAE00EC98DC /* BaseViewController+BaseUI.m in Sources */,
+				95EB1D691C0D73A600D2792E /* LocationModel.m in Sources */,
 				4EFAC0701B525AAE00EC98DC /* API+ReplyHandling.m in Sources */,
 				4EFAC0841B525AAE00EC98DC /* UIView+Utils.m in Sources */,
+				95EB1D601C0D6C1700D2792E /* LocationGetAPI.m in Sources */,
 				4EFAC06E1B525AAE00EC98DC /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,8 @@
 #import "AddGistAPI.h"
 #import "iOSRepositoriesAPI.h"
 #import "GistFile.h"
+#import "LocationGetAPI.h"
+#import "LocationModel.h"
 
 @implementation ViewController
 
@@ -19,7 +21,22 @@
     [super viewDidLoad];
 
     //[self sendGist:nil];
-    [self loadiOSRepos:nil];
+    //[self loadiOSRepos:nil];
+    [self loadLocation:nil];
+}
+
+- (IBAction)loadLocation:(id)sender
+{
+    [LocationGetAPI withCompletion:^(id response, NSError *error, BOOL *handleError) {
+        if (!error) {
+            LocationModel *location = response;
+            //NSLog(@"latitude - %f", location.coordinates.latitude);
+            //NSLog(@"longtude - %f", location.coordinates.longitude);
+            NSLog(@"#latitude:%f", location.location.latitude);
+            NSLog(@"#latitude:%f", location.location.longitude);
+
+        }
+            }];
 }
 
 - (IBAction)loadiOSRepos:(id)sender

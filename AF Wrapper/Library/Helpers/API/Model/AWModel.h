@@ -72,3 +72,11 @@
 //- (NSMutableDictionary *)allObjectPropertiesWithSuper:(BOOL)withSuper;
 
 @end
+
+@interface AWModel (Location)
+
++ (NSString *)latitudeMapping;
++ (NSString *)longitudeMapping;
++ (NSValue*)getValueForLocation:(NSDictionary*)dict;
+
+@end
